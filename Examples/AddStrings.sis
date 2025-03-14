@@ -1,0 +1,14 @@
+// Push two string values to the top of the stack
+push "Hello "
+push "World!"
+// <stack 0 = "World!">
+// <stack 1 = "Hello ">
+
+// Add the top two values of the stack and push the result to the top of the stack
+// <stack1 + stack0>
+add
+// <stack 0 = "Hello World!">
+
+// Dump the contents from the top of the stack
+dump
+// <Output: Hello World!>

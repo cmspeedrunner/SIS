@@ -1,0 +1,28 @@
+// Push 20 into register A and 100 into register B
+set A, 20
+set B, 100
+// <A = 20>
+// <B = 100>
+
+// Push register A and B to the top of the stack
+ld A
+ld B
+// <Stack 0 = 100>
+// <Stack 1 = 20>
+
+// Add the top two values on the stack
+add
+// <Stack 0 = 120>
+
+// Push top of stack to register C
+pt C
+// <C = 120>
+
+
+// Push register C to the top of the stack
+ld C
+// <stack 0 = 120>
+
+// Dump top of the stack
+dump
+// <Output: 120>
