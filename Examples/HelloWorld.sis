@@ -1,0 +1,7 @@
+// Push string value "Hello World!" to the top of the Stack
+push "Hello World!"
+// <stack 0 = "Hello World!">
+
+// Dump the first value on the stack to the std output
+dump
+// <Output: Hello World!>
