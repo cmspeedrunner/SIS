@@ -84,6 +84,10 @@ Halts execution immediately.
 A comment line that is ignored by the interpreter. (Must be on its own line soz)
 - **Example:** `// This is a comment`
 
+# Usage:
+To run your file, simply do: <br>
+`py main.py yourfile.sis` <br>
+And it should start at once!
 ## Check out
 `/Examples` has some more in depth detailed programs, and as with all my projects, this was for fun, its a basic from scratch bytecode interpreter and I do not think this is anything more then a fun project I hope others can enjoy!<br>
 Thank you!
